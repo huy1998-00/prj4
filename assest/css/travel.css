@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+    display: flex;
+}
+
+#sidebar{
+width: 300px;
+background-color: #93CBF0;
+height: auto;
+
+}
+
+.container{
+    flex: 1;
+    background-color: #D6D58E;
+    height: auto;
+    
+}
+
+
+.carousel-inner img{
+    height: 300px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin: 30px 0 30px 30px;
+    color: #6B0CE8
+}
+.img-fluid {
+    height: 200px;
+    width: 100%;
+    padding: 5px;
+}
+
+.list-group{
+    margin-top: 40px;
+}
+.img-cnt{
+    margin-top: 30px;
+}
+.list-group-item a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media (max-width:991px){
+    #sidebar{
+        display: none;
+    }
+}
